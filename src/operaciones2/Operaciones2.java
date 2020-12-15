@@ -5,11 +5,6 @@ import java.util.Scanner;
 
 
 public class Operaciones2 {
-    public static void main(String[] args) {
-        System.out.println(suma());
-        
-    }
-
     public int suma(int num1, int num2){
         return num1+num2;
     }
@@ -27,6 +22,11 @@ public class Operaciones2 {
         factorial=factorial*numero;
         numero--;
         }
+    }
+    
+    public int raiz(int numero){
+        int resultado = (int) (float) Math.sqrt(numero);
+        return numero;
     }
     
 }
