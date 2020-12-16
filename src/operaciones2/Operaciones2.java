@@ -39,8 +39,4 @@ public class Operaciones2 {
         double resultado = num1 / num2;
         return resultado;
     }
-<<<<<<< .merge_file_a09028
 
-=======
-}
->>>>>>> .merge_file_a07300
